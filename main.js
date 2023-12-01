@@ -1,19 +1,28 @@
 
 /*CALCULADORA*/
 
-const result = document.querySelector(".result");
-const buttons = document.querySelectorAll(".box-buttons button");
+    const resultElement = document.querySelector('.result');
 
-let currentNumber = "";
-let firstOperand = null;
-let operator = null;
-let restart = false;
+    function appendCharacter(character) {
+        resultElement.textContent += character;
+    }
 
-/*limpa o resultado*/
-function updateResult(originclear = false) {
-    result.innerText = originclear ? 0 : currentNumber.replace(",", ",");
-    
-}
+    function clearDisplay() {
+        resultElement.textContent = '';
+    }
+
+    function calculateResult() {
+        try {
+            resultElement.textContent = eval(resultElement.textContent);
+        } catch (error) {
+            resultElement.textContent = 'Error';
+        }
+    }
+
+
+
+
+
 
 /*TEXTO*/
 const text = document.querySelector(".name");
@@ -32,3 +41,5 @@ const textLoad = () => {
 
 textLoad();
 setInterval(textLoad, 12000);
+
+

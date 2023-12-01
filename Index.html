@@ -17,48 +17,42 @@
 
 <body>
     <main>
-        <div class="box-blur">
-            <div class="box-calculator">
-
-                <div class="box-result">
-                    <p class="result" ></p>
-                </div>
-
-                <div class="box-buttons">
-
-                    <button class="btn-gray">c</button>
-                    <button class="btn-gray">½</button>
-                    <button class="btn-gray">%</button>
-                    <button class="btn-green">÷</button>
-
-                    <button class="btn-black">7</button>
-                    <button class="btn-black">8</button>
-                    <button class="btn-black">9</button>
-                    <button class="btn-green">x</button>
-
-                    <button class="btn-black">4</button>
-                    <button class="btn-black">5</button>
-                    <button class="btn-black">6</button>
-                    <button class="btn-green">-</button>
-
-                    <button class="btn-black">1</button>
-                    <button class="btn-black">2</button>
-                    <button class="btn-black">3</button>
-                    <button class="btn-green">+</button>
-
-                    <button class="btn-black">0</button>
-                    <button class="btn-black">,</button>
-                    <button class="btn-dark-green">=</button>
-
-                </div>
-
-            </div>
-
+<div class="box-blur">
+    <div class="box-calculator">
+        <div class="box-result">
+            <p class="result"></p>
         </div>
+        <div class="box-buttons">
+            <button class="btn-gray" onclick="clearDisplay()">C</button>
+            <button class="btn-gray" onclick="appendCharacter('½')">½</button>
+            <button class="btn-gray" onclick="appendCharacter('%')">%</button>
+            <button class="btn-green" onclick="appendCharacter('÷')">÷</button>
+
+            <button class="btn-black" onclick="appendCharacter('7')">7</button>
+            <button class="btn-black" onclick="appendCharacter('8')">8</button>
+            <button class="btn-black" onclick="appendCharacter('9')">9</button>
+            <button class="btn-green" onclick="appendCharacter('x')">x</button>
+
+            <button class="btn-black" onclick="appendCharacter('4')">4</button>
+            <button class="btn-black" onclick="appendCharacter('5')">5</button>
+            <button class="btn-black" onclick="appendCharacter('6')">6</button>
+            <button class="btn-green" onclick="appendCharacter('-')">-</button>
+
+            <button class="btn-black" onclick="appendCharacter('1')">1</button>
+            <button class="btn-black" onclick="appendCharacter('2')">2</button>
+            <button class="btn-black" onclick="appendCharacter('3')">3</button>
+            <button class="btn-green" onclick="appendCharacter('+')">+</button>
+
+            <button class="btn-black" onclick="appendCharacter('0')">0</button>
+            <button class="btn-black" onclick="appendCharacter(',')">,</button>
+            <button class="btn-dark-green" onclick="calculateResult()">=</button>
+        </div>
+    </div>
+</div>
 
         <div class="box-powred">
-            <p class="box-powred-p">Desenvovido</p>
-            <div>
+            <!-- <p class="box-powred-p">Desenvovido</p>
+            <div> -->
                 <p class="name">Graça Santos</p>
             </div>
         </div>
