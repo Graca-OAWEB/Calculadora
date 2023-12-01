@@ -14,13 +14,20 @@ body, main, .box-blur {
 }
 
 main {
-    max-height: 100vh;
-    max-width: 100vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .box-blur {
-    width: 37.875em;
-    height: 37.875em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60em;
+    height: 60em;
     flex-shrink: 0;
     border-radius: 57.875em;
     background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
@@ -29,7 +36,7 @@ main {
 .box-calculator {
     display: flex;
     width: 25em;
-    height: 32em;
+    height: 42em;
     padding: 3em;
     flex-direction: column;
     justify-content: center;
@@ -38,7 +45,7 @@ main {
     border-radius: 1.25em;
     border: 0.188em solid #000;
     background: rgba(228, 230, 236, 0.70);
-    box-shadow: 0.25em 0.25em 0.25em 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0.50em 0.50em 0.50em 0px rgba(0, 0, 0, 0.25);
 }
 
 .box-result {
@@ -65,6 +72,7 @@ main {
     gap: 0.3em;
     max-width: 22em;
     height: 20em;
+    margin-bottom: 3em;
 }
 
 button {

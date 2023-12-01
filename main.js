@@ -33,13 +33,13 @@ const textLoad = () => {
     }, 0);
     setTimeout(() => {
         text.textContent = "Web designer";
-    }, 4000);
+    }, 2000);
     setTimeout(() => {
         text.textContent = "Meu mundo tech";
-    }, 8000); //1s = 1000 milliseconds
+    }, 4000); //1s = 1000 milliseconds
 }
 
 textLoad();
-setInterval(textLoad, 12000);
+setInterval(textLoad, 6000);
 
 
