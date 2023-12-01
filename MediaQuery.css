@@ -25,7 +25,7 @@
     body, main, .box-blur {
         background: #040A2E;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
     }
@@ -42,23 +42,8 @@
         justify-content: center;
         align-items: center;
     }
-    .box-calculator {
-        display: flex;
-        width: 35em;
-        height: 42em;
-        padding: 3em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+ 
 
-    }
-    .box-buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.3em;
-        max-width: 32em;
-        height: 20em;
-    }
 }
 
 /*#LANDSCAPE min-width: 1024px and max-width: 1279px*/
@@ -71,23 +56,8 @@
         justify-content: center;
         align-items: center;
     }
-    .box-calculator {
-        display: flex;
-        width: 35em;
-        height: 42em;
-        padding: 3em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
-    .box-buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.3em;
-        max-width: 32em;
-        height: 20em;
-    }
+
 }
 
 /*===================================== 💻 LAPTOP ==========================================*/
@@ -101,23 +71,8 @@
         justify-content: center;
         align-items: center;
     }
-    .box-calculator {
-        display: flex;
-        width: 35em;
-        height: 42em;
-        padding: 3em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
-    .box-buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.3em;
-        max-width: 32em;
-        height: 20em;
-    }
+
 }
 
 /*#LARGE  min-width: 1367px and max-width: 1919px*/
@@ -130,23 +85,8 @@
         justify-content: center;
         align-items: center;
     }
-    .box-calculator {
-        display: flex;
-        width: 35em;
-        height: 42em;
-        padding: 3em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
-    .box-buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.3em;
-        max-width: 32em;
-        height: 20em;
-    }
+
 }
 
 /*================================= 🖥 DESKTOP  =======================================*/
@@ -161,24 +101,9 @@
         justify-content: center;
         align-items: center;
     }
-    .box-calculator {
-        display: flex;
-        width: 35em;
-        height: 42em;
-        padding: 3em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-    }
 
-    .box-buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.3em;
-        max-width: 32em;
-        height: 20em;
-    }
+
 }
 /*#LANDSCAPE - min-width: 1920px*/
 
@@ -191,22 +116,6 @@
         align-items: center;
     }
 
-    .box-calculator {
-        display: flex;
-        width: 35em;
-        height: 42em;
-        padding: 3em;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .box-buttons {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 0.3em;
-        max-width: 32em;
-        height: 20em;
-    }
 }
 
 /*================================= DESKTOP EXTRA LARGE SCRENS  =======================================*/
