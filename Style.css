@@ -69,7 +69,6 @@ main {
     grid-template-columns: repeat(4, 1fr);
     gap: 0.3em;
     max-width: 22em;
-    height: 30em;
     margin-bottom: 3em;
 }
 
