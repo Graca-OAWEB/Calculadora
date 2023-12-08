@@ -11,23 +11,47 @@
 /*=====================================📱 MOBILE ==========================================*/
 /*#PORTRAIT  max-width: 480px*/
 @media screen and (max-width: 480px) and (orientation: portrait) {
-    body, main, .box-blur {
-        background: #040A2E;
+    body, main {
+        background: #050A2E;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
+    .box-blur {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50em;
+        height: 50em;
+        flex-shrink: 0;
+        border-radius: 57.875em;
+        background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    }
 }
 
 /*#LANDSCAPE max-width: 768px*/
-@media screen and (max-width: 768px) and  (orientation: landscape) {
-    body, main, .box-blur {
-        background: #040A2E;
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    body, main {
+        background: #050A2E;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .box-blur {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50em;
+        height: 50em;
+        flex-shrink: 0;
+        border-radius: 57.875em;
+        background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
     }
 }
 
@@ -35,28 +59,49 @@
 /*#PORTRAIT  min-width: 834px and max-width: 1023px*/
 
 @media screen and (min-width: 834px) and (max-width: 1023px) and (orientation: portrait) {
-    body, main, .box-blur {
-        background: #040A2E;
+    body, main {
+        background: #050A2E;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
- 
 
+    .box-blur {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50em;
+        height: 50em;
+        flex-shrink: 0;
+        border-radius: 57.875em;
+        background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    }
 }
 
 /*#LANDSCAPE min-width: 1024px and max-width: 1279px*/
 
 @media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
-    body, main, .box-blur {
-        background: #040A2E;
+    body, main {
+        background: #050A2E;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
+    .box-blur {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50em;
+        height: 50em;
+        flex-shrink: 0;
+        border-radius: 57.875em;
+        background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    }
 
 }
 
@@ -64,61 +109,102 @@
 /*#SMALL min-width: 1280px and max-width: 1366px*/
 
 @media screen and (min-width: 1280px) and (max-width: 1366px) {
-    body, main, .box-blur {
-        background: #040A2E;
+    body, main {
+        background: #050A2E;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
+    .box-blur {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50em;
+        height: 50em;
+        flex-shrink: 0;
+        border-radius: 57.875em;
+        background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    }
 
 }
 
 /*#LARGE  min-width: 1367px and max-width: 1919px*/
 
 @media screen and (min-width: 1367px) and (max-width: 1919px) {
-    body, main, .box-blur {
-        background: #040A2E;
+    body, main {
+        background: #050A2E;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
-
+    .box-blur {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50em;
+        height: 50em;
+        flex-shrink: 0;
+        border-radius: 57.875em;
+        background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    }
 }
 
 /*================================= 🖥 DESKTOP  =======================================*/
 
 /*#PORTRAIT - min-width: 1920px*/
 
-@media screen and (min-width: 1920px) and (orientation: portrait){
-    body, main, .box-blur {
-        background: #040A2E;
+@media screen and (min-width: 1920px) and (orientation: portrait) {
+    body, main {
+        background: #050A2E;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
 
-
-
-}
-/*#LANDSCAPE - min-width: 1920px*/
-
-@media screen and (min-width: 1920px) and (orientation: landscape) {
-    body, main, .box-blur {
-        background: #040A2E;
+    .box-blur {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        width: 50em;
+        height: 50em;
+        flex-shrink: 0;
+        border-radius: 57.875em;
+        background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
+    }
+
+}
+
+/*#LANDSCAPE - min-width: 1920px*/
+
+@media screen and (min-width: 1920px) and (orientation: landscape) {
+    body, main {
+        background: #050A2E;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box-blur {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 50em;
+        height: 50em;
+        flex-shrink: 0;
+        border-radius: 57.875em;
+        background: radial-gradient(50% 50% at 50% 50%, #D9D9D9 0%, rgba(217, 217, 217, 0.00) 100%);
     }
 
 }
 
 /*================================= DESKTOP EXTRA LARGE SCRENS  =======================================*/
-
-
-
